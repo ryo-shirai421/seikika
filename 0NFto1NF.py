@@ -15,7 +15,7 @@ def flatten(data):
     return flatten_data
 
 # tsvファイルからデータをリストとして読み込む(ファイルは同じ階層にあるとする)
-with open('data.tsv') as f:
+with open('0NFdata.tsv') as f:
     reader = csv.reader(f, delimiter='\t')
     rows = [row for row in reader]
 
